@@ -10,11 +10,11 @@ form{
 
 }
 .control{
-    
+
     display: flex;
     flex-direction: column;
-    padding: 10px;   
-    gap: 6px;
+    padding: 15px;   
+    
     
     
 }
@@ -23,23 +23,41 @@ form{
     
     display: flex;
     flex-direction: column;
-    padding: 6px;
-    border: none;   
+    padding: 10px;
     border-radius: 6px;
-    
+    border: none;   
+
     
 }
 .control-inline:hover{
     
     display: flex;
     flex-direction: column;
-    padding: 6px;
+    padding: 10px;
     border: none;  
     box-shadow: 0 0 2px 2px white; 
-    transition: 1s1;
+    transition: 1s;
     background: linear-gradient(90deg, rgb(127, 0, 153) 0%, rgb(230, 30, 186) 100%); 
     
 }
+.choose{
 
+    width: auto;
+    height: 40px;
+
+ 
+}
+.login{
+    width: 140px;
+    padding: 10px;
+   
+}
+
+.sign-up{
+    width: 140px;
+    padding: 10px;
+   
+    
+}
 
 /**background: linear-gradient(90deg, rgb(127, 0, 153) 0%, rgb(230, 30, 186) 100%);**/
