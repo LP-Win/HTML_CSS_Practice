@@ -40,23 +40,47 @@ form{
     background: linear-gradient(90deg, rgb(127, 0, 153) 0%, rgb(230, 30, 186) 100%); 
     
 }
+
+.control-box{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;   
+
+    
+}
+
+.control-box:focus{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+      
+    box-shadow: 0 0 1px 1px white; 
+    transition: 1s;
+    background: linear-gradient(90deg, rgb(127, 0, 153) 0%, rgb(230, 30, 186) 100%); 
+    
+}
+
 .choose{
 
     width: auto;
     height: 40px;
-
- 
+    
 }
 .login{
     width: 140px;
     padding: 10px;
+    border-radius: 4px;
    
 }
 
 .sign-up{
     width: 140px;
     padding: 10px;
-   
+    border-radius: 4px;
     
 }
 
